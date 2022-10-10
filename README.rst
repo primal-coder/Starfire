@@ -6,20 +6,37 @@ with Pyxel, a library for simple game development. Starfire introduces
 a class of simple simulated bodies closely resembling a "fireball" and 
 their behavior in a sparse environment. 
 
-You can execute the simulation by executing
+clone this repo
+
+``git clone https://github.com/primal-coder/Starfire``
+
+navigate to the new directory
+
+``cd Starfire``
+
+execute the module using python
 
 ``python -m starfire``
 
-once the simulation is running you can modify the angle and velocity of any "fireball"
-you spawn with the [arrow keys], you may press the [SpaceBar] to spawn a "fireball" and propel
-it forward, while the [Left Control] key is held press the [SpaceBar] to spawn a "fireball" 
-which will orbit a point at the center of the screen, if while any fireball is in flight the [E]
-key is pressed all "fireballs" on the screen will combust.
+
+CONTROLS:
+
+[ARROW KEYS]
+[up] - increase the vertical angle of a newly spawned fireball
+[down] - decrease the angle of a new fireball
+[left] - decrease the horizontal velocity of a new fireball
+[right] - increase the horizontal velocity of a new fireball
+
+[Spacebar] - spawn a fireball
+[left control] + [spacebar] - spawn a fireball which will orbit a point at the center of the screen
+
+[right shift] + [8 key] - dilate time
+[right shift] + [7 key] - expand time
+[right alt] + [8 key] - revert timescale to default
+
+[E key] - explode any fireballs on the screen
+
+
 
 Extras: 
-
-
-
----------------
-
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
+  --coming soon!---
