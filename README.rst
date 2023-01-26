@@ -23,11 +23,15 @@ CONTROLS:
 
 [ARROW KEYS]
 [up] - increase the vertical angle of a newly spawned fireball
+
 [down] - decrease the angle of a new fireball
+
 [left] - decrease the horizontal velocity of a new fireball
+
 [right] - increase the horizontal velocity of a new fireball
 
 [Spacebar] - spawn a fireball
+
 [left control] + [spacebar] - spawn a fireball which will orbit a point at the center of the screen
 
 [right shift] + [8 key] - dilate time
