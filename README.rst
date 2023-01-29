@@ -6,12 +6,11 @@ with Pyxel, a library for simple game development. Starfire introduces
 a class of simple simulated bodies closely resembling a "fireball" and 
 their behavior in a sparse environment. 
 
-
-#Dependencies
+Install dependencies
 
 ```pip install pyxel pymunk```
 
-#Installation
+Install Starfire
 
 Clone this repo
 
@@ -25,7 +24,7 @@ Execute the module using python
 
 ``python -m starfire``
 
-#CONTROLS:
+Controls:
 
 [ARROW KEYS]
 [up] - increase the vertical angle of a newly spawned fireball
